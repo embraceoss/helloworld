@@ -37,10 +37,10 @@ NSString *autoSuggestEndPoint = @"http://api.bing.com/qsonhs.aspx?mkt=en-us&q=he
 
 - (IBAction)testNSURLSession:(id)sender {
     
-    NSURLSession *session = [NSURLSession sharedSession];
-    [session dataTaskWithURL:[NSURL URLWithString:autoSuggestEndPoint] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        <#code#>
-    }
+   
+    
+    
+    
 }
 
 @end
